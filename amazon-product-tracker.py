@@ -27,7 +27,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('amritkanoi49@gmail.com','yglouuvjbimtmbrs')
+    server.login('GMAIL','PASSWORD')
 
     subject = 'PRICE FELL DOWN'
     body = 'check the amazon link : url = https://www.amazon.in/Lenovo-Ideapad-Laptop-Windows-81WD00AVIN/dp/B087D4RVHY/ref=psdc_1375424031_t3_B089F5JGM1'
@@ -36,8 +36,8 @@ def send_mail():
 
     server.sendmail
     (
-        'amritkanoi49@gmail.com',
-        'amrit.kanoi2018@vitstudent.ac.in',
+        'saivineeth181@gmail.com',
+        'vuppala.saivineeth2018@vitstudent.ac.in',
         msg
     )
 
